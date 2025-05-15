@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Gallery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: "Quicksand", sans-serif;
+      margin: 20px;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-top: 15px;
+      margin-bottom: 50px;
+    }
+
+
+
+    p {
+      font-size: 16px;
+      margin-bottom: 30px;
+      max-width: 100%;
+      margin-top: 50px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 20px;
+    }
+
+    .box {
+      background-color: #6cacf0;
+      border-radius: 10px;
+      padding: 10px;
+      color: black;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .box img {
+      width: 100%;
+      max-height: 100px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+
+    .title {
+      font-size: 20px;
+      font-weight: 600;
+      background-color: aliceblue;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    @media (max-width: 768px) {
+      .gallery {
+        grid-template-columns: 1fr;
+      }
+
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Gallery Heading</h1>
+
+
+
+  <div class="gallery">
+    <div class="box">
+      <img src="placeholder-image.png" alt="img 1">
+      <div class="title">Image Title</div>
+    </div>
+    <div class="box">
+      <img src="placeholder-image.png" alt="img 2">
+      <div class="title">Image Title</div>
+    </div>
+    <div class="box">
+      <img src="placeholder-image.png" alt="img 3">
+      <div class="title">Image Title</div>
+    </div>
+    <div class="box">
+      <img src="placeholder-image.png" alt="img 4">
+      <div class="title">Image Title</div>
+    </div>
+    <div class="box">
+      <img src="placeholder-image.png" alt="img 5">
+      <div class="title">Image Title</div>
+    </div>
+    <div class="box">
+      <img src="placeholder-image.png" alt="img 6">
+      <div class="title">Image Title</div>
+    </div>
+    <div class="box">
+      <img src="placeholder-image.png" alt="img 7">
+      <div class="title">Image Title</div>
+    </div>
+    <div class="box">
+      <img src="placeholder-image.png" alt="img 8">
+      <div class="title">Image Title</div>
+    </div>
+    <div class="box">
+      <img src="placeholder-image.png" alt="img 9">
+      <div class="title">Image Title</div>
+    </div>
+    <div class="box">
+      <img src="placeholder-image.png" alt="img 10">
+      <div class="title">Image Title</div>
+    </div>
+  </div>
+
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a lacinia nisl,
+    nec tristique sem.
+    Cras id tellus ac mauris posuere varius. Pellentesque vel mi justo.
+    Aenean malesuada purus eu lacinia finibus.
+    Praesent commodo suscipit odio, eu pharetra nulla dignissim nec.
+    Ut in nulla augue. Duis ultricies euismod purus,
+    ut lobortis tortor semper a.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a lacinia nisl,
+    nec tristique sem.
+    Cras id tellus ac mauris posuere varius. Pellentesque vel mi justo.
+    Aenean malesuada purus eu lacinia finibus.
+    Praesent commodo suscipit odio, eu pharetra nulla dignissim nec.
+    Ut in nulla augue. Duis ultricies euismod purus,
+    ut lobortis tortor semper a.
+  </p>
+
+</body>
+
+</html>
